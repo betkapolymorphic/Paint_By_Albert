@@ -1,0 +1,23 @@
+﻿<Window x:Class="Paint.Window_CreateImage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window_CreateImage" Height="144.4" Width="186.23">
+    <Grid x:Name="grid_Main" Background="#FFCFAC4E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22*"/>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox_Width" HorizontalAlignment="Left" Height="31" Margin="10,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Text="200" Background="#FFCFAC4E"/>
+        <TextBox x:Name="textBox_height" HorizontalAlignment="Left" Height="29" Margin="113,27,0,0" TextWrapping="Wrap" Text="200" VerticalAlignment="Top" Width="60" Background="#FFCFAC4E"/>
+        <Label Content="Width" HorizontalAlignment="Left" Height="27" Margin="10,-2,0,0" VerticalAlignment="Top" Width="59"/>
+        <Label Content="Height" HorizontalAlignment="Left" Height="27" Margin="113,-2,0,0" VerticalAlignment="Top" Width="59"/>
+        <Button x:Name="button_create" Content="Create" HorizontalAlignment="Left" Click="button_create_Click" Height="38" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="160" Background="#FFBFF582"/>
+
+    </Grid>
+</Window>
