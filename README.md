@@ -1,5 +1,9 @@
 Drawer
 ===============
+
+
+<a href="https://github.com/betkapolymorphic/Paint_By_Albert/releases/tag/Paint_v_0.02">НОВАЯ ВЕРСИЯ!!!</a>
+
 Для запуска программы необходим .Net 4.0 или выше.
 В скачанно архиве открыть файл paint.exe
 
